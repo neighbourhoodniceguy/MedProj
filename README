@@ -1,0 +1,19 @@
+Main Objective
+The main objective of this project is to determine whether there is a "causal relationship between the sex and the insurance cost of a person". To evaluate this, we have to be critical of the dataset and find a way to eliminate the impact of other factors.
+PS! To be clear, we are only able to factor in and eliminate the effect of the other variables provided in the given dataset. This means that the final numbers will be just as accurate as this dataset allows them to be. If there are any other factors (there most definitely are) but they are not accounted for in this dataset, we won't be able to account for them.
+
+We will do this by iterating through the dataset and filtering out the highest possible number of datapoints that share common cost-determining variable (except the sex) - this will allow us to look at the sex of a person and evaluate causal relationship in a meaningful way.
+
+Gameplan
+1. Importing all data from the csv file and dividing the column values into lists for later access.
+2. Filter out the non-smokers for final objective dataset. (Side Objective) Determine if smoking has an effect on the insurance cost.
+
+3. Filter by region for final objective dataset.
+
+4. Filter BMI for final objective dataset. (Side Objective) BMI Effect on insurance cost.
+
+5. Filter Children for final objective dataset.
+
+6. (Main Objective) Determine whether there is a causal effect between sex and insurance cost.
+
+7. The Results
